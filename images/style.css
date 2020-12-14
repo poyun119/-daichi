@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #2d3561;
+}
+
+header.jumbotron {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/21/16/01/blur-1846128_960_720.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+header.jumbotron .container {
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+header.jumbotron .container hr {
+  width: 50px;
+  border: solid 2px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section#section_ask {
+  background-color: #2d3561;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i.pinimg.com/originals/91/c5/14/91c514e958a185597f3c70edfee17d2f.jpg);
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask .col-sm-7 {
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+
+section#section_about .col-md-4 img {
+  width: 100%;
+}
+
+section#section_story .col-sm-5 {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/132/152/non_2x/free-blue-jeans-icons-vector.jpg);
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+section#section_story .col-sm-7 {
+  background-color: #333;
+  color: white;
+}
+section#section_story .col-sm-7 .col-md-12 {
+  text-align: center;
+}
+section#section_story .col-sm-7 .col-md-12 i {
+  text-align: center;
+  font-size: 40px;
+}
+section#section_story .col-sm-7 .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_future .feature {
+  background-image: url(https://image.aoyama-store.com.tw/www/Aoyama/web/image04.jpg);
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+section#section_future .col-sm-6 i {
+  text-align: center;
+  font-size: 40px;
+}
+
+footer.jumbotron {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/21/16/01/blur-1846128_960_720.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  text-align: center;
+}
+footer.jumbotron input {
+  background-color: transparent;
+  max-width: 350px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer.jumbotron .container {
+  color: white;
+  padding: 60px 0px;
+}
+footer.jumbotron hr {
+  max-width: 50px;
+  border: solid 2px white;
+}
