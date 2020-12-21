@@ -190,7 +190,7 @@ section#section_game h3{
 
 section#section_virus{
     position: relative;
-    background-image: url("../images/photo3.jpg");
+    background-image: url("../images/virus_banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -279,7 +279,7 @@ section#section_intro .competition img{
 }
 
 section#section_away{
-    background-image: url("../images/photo4.jpg");
+    background-image: url("../images/mask.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
