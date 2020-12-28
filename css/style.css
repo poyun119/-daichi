@@ -29,7 +29,7 @@ nav.navbar {
 }
 
 .navbar.navbar-expand-lg.navbar-light.fixed-top {
-  background-color: #935c60;
+  background-color: #000;
 }
 nav.navbar.navbar-expand-lg.navbar-light.fixed-top a {
   color: white;
@@ -68,12 +68,12 @@ div.jumbotron{
     text-decoration: none;
     font-size: 2rem;
     padding: 10px 50px;
-    background-color:#935c60;
+    background-color:#000;
     margin-top: 500px;
 }
 
 section#section_ask{
-    background-color: #f4f4f5;
+    background-color: #000;
     padding: 150px 100px;
 }
 
@@ -89,12 +89,12 @@ section#section_ask .ask{
 }
 #section_ask h3{
     line-height: 5rem;
-    color: #a33938;
+    color: #D41C1C;
     width: 40%;
 }
 
 section#section_about{
-    background-color: #f4f4f5;
+    background-color: #000;
     padding: 150px 100px;
     display: flex;
     justify-content: center;
@@ -107,18 +107,20 @@ section#section_about{
 }
 #section_about .info{
     width: 40%;
+    color: white;
 }
 
 #section_about .info h3{
-    color: #a33938;
+    color: #D41C1C;
     margin-bottom: 30px;
 }
 section#section_story{
-    background-color: #f4f4f5;
+    background-color: #000;
     padding: 150px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 #section_story img{
@@ -132,12 +134,12 @@ section#section_story{
 
 
 #section_story .operation h3{
-    color: #a33938;
+    color: #D41C1C;
     margin-bottom: 30px;
 }
 
 section#section_game {
-    background-color: #f4f4f5;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,8 +151,8 @@ section#section_game a{
     width: 300px;
     padding: 100px 0 ;
     display: block;
-    background-color: #0a043c;
-    color: white ;
+    background-color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     margin: 0 100px;
@@ -174,7 +176,7 @@ section#section_game img{
 
 section#section_game h3{
     font-size: 3rem;
-    color: #a33938;
+    color: #D41C1C;
 
     margin-bottom: 100px;
 }
@@ -207,7 +209,7 @@ section#section_virus{
 }
 
 section#section_intro{
-    background-color: #534e52;
+    background-color: #000;
     position: relative;
 }
 
@@ -267,6 +269,7 @@ section#section_intro .intro img{
 section#section_intro .competition {
     color: #ffffff;
     position: relative;
+    background-color: #000;
 }
 
 section#section_intro .competition h3{
@@ -296,36 +299,39 @@ section#section_away h3{
 }
 
 section#section_common{
-    background-color: #f4e1b5;
+    background-color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 100px 0;
+    color: white ;
 } 
 
 .common h3{
-    color: #a1b385;
+    color: #D41C1C;
     font-size: 3.5rem;
     text-align: center;
     margin: 60px 0;
 }
 
 .myth h3{
-    color: #a1b385;
+    color: #D41C1C;
     margin: 60px 0;
 }
 
 section#section_team{
-    background-color: #f4f4f5;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
+    background-color: #000;
 }
 
 section#section_team .card{
     padding: 100px 30px ;
     text-align: center;
+    background-color: #000;
 }
 
 section#section_team .card img{
@@ -338,9 +344,9 @@ section#section_team .card img{
 }
 
 .virus3 span{
-    background-color: #ffd369;
+    background-color: #D41C1C;
     padding: 5px 0 ;
-    color: #393e46;
+    color: white;
     position: absolute;
     border-radius: 10px;
 }
@@ -368,7 +374,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: #222831;
+    background-color: #000;
     color: #fff;
     padding: 10px 0;
 }
